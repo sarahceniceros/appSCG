@@ -1,0 +1,55 @@
+body{
+
+	background-color: lightpink;
+
+}
+
+h3{
+	color:rgb(255, 255, 255);
+	text-align: right;
+}
+
+h1{
+	font-family: verdana;
+	  text-shadow: 3px 2px white;
+	  font-size: 55px;
+
+}
+
+p{
+	font-family: sans-serif;
+	font-color:blue;
+}
+
+em{
+	color:rgb(238, 64, 129);
+	 text-decoration-line: underline;
+}
+
+.caption{
+	text-indent: 100px;
+}
+
+h2{
+	 text-transform: uppercase;
+}
+
+img {
+ border-radius: 10%;
+  border-image-outset: 10px;
+  box-shadow: 10px 10px;
+}
+
+#quote{
+text-align: center;
+  border: 4px dotted black;
+}
+
+h4{
+	font-size: 15px;
+	font-family: "Times New Roman", Times, serif;
+}
+
+
+
+

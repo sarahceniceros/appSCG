@@ -1,0 +1,14 @@
+.top{
+	font-family: 'Arial';
+	font-size: 60px;
+	font-color:black;
+	text-align: left;
+	line-height: .6;
+}
+
+.cont{
+	font-family: 'Arial';
+	font-size: 40px;
+	font-color:hotpink;
+	text-align: left;
+}
