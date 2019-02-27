@@ -1,0 +1,56 @@
+html,div,h1,h2,h3,h4,h5,h6,p,img {max-width:1600px; height:100%; background-color: lightgray; max-width: 600px;} 
+
+#square1{
+	width: 220px;
+    height: 220px;
+    float: left;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    display: block;
+    background-color: yellow;
+}
+
+#center{
+	width: 100px;
+    height: 100px;
+    float: left;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 60px;
+    display: block;
+    background-color: lightyellow;
+}
+
+#square2{
+	width: 220px;
+    height: 220px;
+    float: left;
+    margin-top: 25px;
+    margin-right: 25px;
+    margin-left: 25px;
+    display: block;
+    background-color: pink;
+}
+
+#square3{
+	width: 220px;
+    height: 220px;
+    float: left;
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+    display: block;
+    background-color: lightpink;
+}
+
+#square4{
+	width: 220px;
+    height: 220px;
+    float: left;
+    margin-top: 50px;
+    margin-right: 25px;
+    margin-left: 25px;
+    display: block;
+    background-color: lightblue;
+}
