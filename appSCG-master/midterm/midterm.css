@@ -1,0 +1,17 @@
+html,div,h1,h2,h3,h4,h5,h6,p,img { background-color: lightyellow;} 
+
+.top{
+	font-family: 'Arial';
+	font-size: 60px;
+	font-color:black;
+	text-align: left;
+	line-height: .6;
+}
+
+.cont{
+	font-family: 'Arial';
+	font-size: 40px;
+	font-color:hotpink;
+	text-align: left;
+}
+
