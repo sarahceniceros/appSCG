@@ -1,0 +1,474 @@
+.head{
+		width: 375px;
+	height:61px;
+	float: left;
+	background: rgb(231, 41, 105);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+.screen{
+		width: 375px;
+	height:606px;
+	float: below;
+	background: white;
+	position: absolute;
+		top:61px;
+		left: 0px;
+}
+
+.sidebar{
+		width: 284px;
+	height:606px;
+	float: below;
+	background: rgb(231, 41, 105);
+	position: absolute;
+		top:61px;
+		left: 91px;
+}
+
+
+#line{
+	width: 375px;
+	height:2px;
+	background: lightgray;
+	position: absolute;
+		top:441px;
+		left: 0px;
+}
+
+#profile{
+	position: absolute;
+	top: 10px;
+	left: 12px;
+}
+
+#profile2{
+	position: absolute;
+	top: 90px;
+	left: 127px;
+}
+
+#home{
+	position: absolute;
+	top: 10px;
+	left: 12px;
+}
+
+#burger{
+	position: absolute;
+	top: 17px;
+	left: 322px;
+}
+
+#logo{
+	position: absolute;
+	top: 136px;
+	left: 28px;
+}
+
+#loc{
+	position: absolute;
+	top: 394px;
+	left: 33px;
+}
+
+
+#boston{
+	position: absolute;
+	top: 518px;
+	left: 0px;
+}
+#boston2{
+	position: absolute;
+	top: 518px;
+	left: -284px;
+}
+
+#new{
+	font-family: 'Gotham';
+font-size: 29px;
+font-color: #FFF;
+text-align: left;
+position: absolute;
+	top: 528px;
+	left: 11px;
+	float:left;
+}
+
+.top{
+		width: 375px;
+	height:77px;
+	float: left;
+	background: white;
+	position: absolute;
+	top: 62px;
+	left: 0px;}
+
+
+#map1{
+	position: absolute;
+	top: 139px;
+	left: 0px;
+}
+
+#pin1{
+	position: absolute;
+	top: 419px;
+	left: 179px;
+}
+#pin2{
+	position: absolute;
+	top: 238px;
+	left: 143px;
+}
+#pin3{
+	position: absolute;
+	top: 419px;
+	left: 149px;
+}
+#pin4{
+	position: absolute;
+	top: 276px;
+	left: 70px;
+}
+#pin5{
+	position: absolute;
+	top: 520px;
+	left: 11px;
+}
+#pin6{
+	position: absolute;
+	top: 470px;
+	left: 310px;
+}
+
+#pin9{
+	position: absolute;
+	top: 175px;
+	left: 165px;
+}
+
+.username{
+	position: absolute;
+	top: 235px;
+	left: 115px;
+}
+
+.contactinfo{
+	position: absolute;
+	top: 282px;
+	left: 102px;
+}
+
+.contacttitle{
+	position: absolute;
+	top: 291px;
+	left: 52px;
+}
+
+.UP{
+		position: absolute;
+	top: 368px;
+	left: 52px;
+}
+
+.UP2{
+		position: absolute;
+	top: 398px;
+	left: 102px;
+}
+
+.SP{
+		position: absolute;
+	top: 501px;
+	left: 52px;
+}
+
+.SP2{
+		position: absolute;
+	top: 531px;
+	left: 102px;
+}
+
+#switch1{
+		position: absolute;
+	top: 410px;
+	left: 72px;
+
+}
+#switch2{
+		position: absolute;
+	top: 429px;
+	left: 72px;
+}
+#switch3{
+		position: absolute;
+	top: 448px;
+	left: 72px;
+}
+#switch4{
+		position: absolute;
+	top:469px;
+	left: 72px;
+}
+#switch5{
+		position: absolute;
+	top:542px;
+	left: 72px;
+}
+#switch6{
+		position: absolute;
+	top:562px;
+	left: 72px;
+}
+#switch7{
+		position: absolute;
+	top:582px;
+	left: 72px;
+}
+#switch8{
+		position: absolute;
+	top:602px;
+	left: 72px;
+}
+
+
+
+
+.store1{	
+position: absolute;
+	top:66px;
+	left: 125px;
+	width: 240px;
+}
+
+.store2{	
+position: absolute;
+	top:175px;
+	left: 125px;
+	width: 240px;
+}
+
+.store3{	
+position: absolute;
+	top:275px;
+	left: 125px;
+	width: 240px;
+}
+
+.store4{	
+position: absolute;
+	top:375px;
+	left: 125px;
+	width: 240px;
+}
+
+.store5{	
+position: absolute;
+	top:475px;
+	left: 125px;
+	width: 240px;
+}
+
+.store6{	
+position: absolute;
+	top:575px;
+	left: 125px;
+	width: 240px;
+}
+
+
+.storeBR{	
+position: absolute;
+	top:325px;
+	left: 125px;
+	width: 210px;
+}
+
+#salesignBR{
+	position: absolute;
+		top:325px;
+	left: 8px;
+}
+
+
+#salesign1{
+	position: absolute;
+		top:80px;
+	left: 8px;
+}
+
+#salesign2{
+	position: absolute;
+		top:190px;
+	left: 8px;
+}
+
+#salesign3{
+	position: absolute;
+		top:290px;
+	left: 8px;
+}
+
+#salesign4{
+	position: absolute;
+		top:390px;
+	left: 8px;
+}
+
+#salesign5{
+	position: absolute;
+		top:490px;
+	left: 8px;
+}
+
+#salesign6{
+	position: absolute;
+		top:590px;
+	left: 8px;
+}
+
+#commentheading{
+		position: absolute;
+		top:450px;
+	left: 18px;
+}
+
+#profile3{
+		position: absolute;
+		top:500px;
+	left: 28px;
+}
+
+#profile4{
+		position: absolute;
+		top:590px;
+	left: 28px;
+}
+
+#elle{
+	position: absolute;
+		top:490px;
+	left: 78px;
+}
+
+#prada{
+	position: absolute;
+		top:580px;
+	left: 78px;
+}
+
+#comment1{
+	position: absolute;
+		top:530px;
+	left: 98px;
+	width: 220px;
+}
+
+#comment2{
+		position: absolute;
+		top:620px;
+	left: 98px;
+	width: 220px;
+}
+
+
+#hand1{
+	position: absolute;
+		top:503px;
+	left: 208px;
+}
+
+#hand2{
+	position: absolute;
+		top:596px;
+	left: 228px;
+}
+
+
+h1{
+	font-family: 'Gotham';
+font-size: 29px;
+color: #FFF;
+text-align: left;
+text-indent: 18px;
+}
+
+h2{
+	font-family: 'Gotham';
+font-size: 27px;
+color: black;
+text-align: left;
+text-indent: 8px;
+line-height: .3;
+}
+h3{
+	font-family: 'Gotham';
+font-size: 20px;
+color: lightgray;
+text-align: left;
+text-indent: 8px;
+line-height: .2;
+}
+h4{
+	font-family: 'Gotham';
+font-size: 13px;
+color: black;
+text-align: left;
+text-indent: 8px;
+line-height: .3;
+}
+
+h5{
+	font-family: 'Gotham';
+font-size: 13px;
+color: darkgray;
+text-align: left;
+text-indent: 8px;
+line-height: 1.6;
+margin:0;
+}
+
+h6{
+	font-family: 'Gotham';
+font-size: 10px;
+color: black;
+text-align: left;
+text-indent: 0px;
+line-height: 1.2;
+margin: 0;}
+
+
+
+
+
+
+
+
+
+
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
