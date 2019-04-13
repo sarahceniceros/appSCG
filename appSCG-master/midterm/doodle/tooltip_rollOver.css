@@ -1,0 +1,123 @@
+@charset "utf-8";
+/* CSS Document */		
+body {
+	background-color: powderblue;
+	/*background-image: url(map1.PNG);*/
+}
+h1 	{
+	color: steelblue;
+    font-family: verdana;
+    font-size: 48px;}
+h2 	{
+	color: cadetblue;
+    font-family: times;
+    font-size: 38px;}
+h3 	{
+	color: #995552;
+    font-family: verdana;
+    font-size: 30px;}
+h4 	{
+	color: slategray;
+    font-family: georgia;
+    font-size: 24px;}
+ h5 	{
+	color: maroon;
+    font-family: verdana;
+    font-size: 24px;}
+p    {
+	font-size: 18px; 
+	line-height: 22px; 
+	font-style: italic; 
+	text-align: left;
+	color: #FFF;} 
+p.small {
+	font-size: 12px; 
+	line-height: 14px;
+	font-style: normal;}	
+
+span.links {
+    color: #FFF;
+}
+.container {
+	width: 1200px;
+	height: 1200px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+} 
+#blue_marker{
+ 	diplay: block;
+	position: absolute;
+	height: 28px;
+	width: 80px;
+	z-index: 4;
+	top: 400px;
+	left: 550px;
+	background-color: #8888FF;
+	border-radius: 12px;
+	border: thin solid #E90003;
+	cursor: pointer;
+	font-size: 18px; 
+	line-height: 22px; 
+	font-style: italic; 
+	text-align: center;
+	color: white;
+}
+
+#blue_marker:hover + #black_reveal  { /* operates on the + #black_reveal div*/
+	visibility: visible;
+}
+
+#black_reveal { /*this is the black that is in back*/
+    diplay: block;
+    visibility: hidden;
+	width: 800px;
+	height: 800px;
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: 50px;
+	left: 50px;
+    background-color: black;
+    border-radius: 32px;
+	z-index: 2;
+}
+
+#blue2_marker{
+ 	diplay: block;
+	position: absolute;
+	height: 28px;
+	width: 80px;
+	z-index: 4;
+	top: 400px;
+	left: 550px;
+	background-color: #8888FF;
+	border-radius: 12px;
+	border: thin solid #E90003;
+	cursor: pointer;
+	font-size: 18px; 
+	line-height: 22px; 
+	font-style: italic; 
+	text-align: center;
+	color: white;
+}
+
+#blue2_marker:hover + #red_reveal  {
+	visibility: visible;
+}
+
+#red_reveal { /*this is the red that is in back*/
+    diplay: block;
+    visibility: hidden;
+	width: 1000px;
+	height: 1000px;
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	top: 50px;
+	left: 50px;
+    background-color: #551010;
+	border-radius: 32px;
+	z-index: 1;
+}

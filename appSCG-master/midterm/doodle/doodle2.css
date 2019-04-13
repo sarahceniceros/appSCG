@@ -1,0 +1,418 @@
+
+.menubar{
+	z-index: 1;
+	width: 1290px;
+	height:60px;
+	float: left;
+	background: white;
+	position: absolute;
+		/*top:0px;
+		left: 0px;*/
+}
+
+#logo{
+	position: absolute;
+		width: 290px;
+		height:50px;
+		margin-top: 10px;
+		margin-left: 6px;
+		/*top:8px;
+		left: 15px;*/
+}
+.container{
+	float: left;
+	margin-top: 60px;
+	height:642px;
+	width: 1283px;
+}
+
+#home{
+	float: left;
+	height:642px;
+	width: 1283px;
+	position: absolute;
+		/*top:60px;
+		left: 0px;*/
+		visibility: visible;
+		z-index: -1;
+}
+
+.offhome1{
+		float: left;
+		margin:0px;
+		/*position: absolute;
+		top:60px;
+		left: 1px;*/
+		visibility: hidden;
+	}
+/*.offhome1:hover{
+	visibility: visible;
+}*/
+.pt1click{
+	height:110px;
+	width:100px;
+	position: absolute;
+		top:430px;
+		left: 80px;
+		cursor: pointer;
+		z-index: 3;
+	}
+
+.pt1click:hover + .offhome1{
+	visibility: visible;
+}
+
+#about{
+	position: absolute;
+		top:4px;
+		left: 680px;
+}
+
+#contact{
+	position: absolute;
+		top:4px;
+		left: 785px;
+}
+
+#shop{
+	position: absolute;
+		top:4px;
+		left: 915px;
+}
+
+#instagram{
+	position: absolute;
+		top:4px;
+		left: 1000px;
+}
+#work{
+	position: absolute;
+		top:4px;
+		left: 1150px;
+}
+
+
+
+#email{
+	position: absolute;
+		top:140px;
+		left: 50px;
+		visibility: visible;
+}
+#offemail{
+	position: absolute;
+		top:140px;
+		left: 50px;
+		visibility: hidden;
+
+}
+
+
+#emailinfo{
+	position: relative;
+		top:5px;
+		left: 10px;
+}
+
+#con1{
+	position: absolute;
+		top:160px;
+		left: 70px;
+		width: 270px;
+		height: 310px;
+		z-index: 3;
+}
+
+#con1:hover + #offemail {
+	visibility: visible;
+}
+
+
+
+#con2{
+	position: absolute;
+		top:160px;
+		left: 470px;
+		width: 270px;
+		height: 310px;
+		z-index: 3;
+}
+
+#con2:hover + #offloc{
+	visibility: visible;
+}
+
+#con3{
+	position: absolute;
+		top:160px;
+		left: 870px;
+		width: 270px;
+		height: 310px;
+		z-index: 3;
+}
+
+#con3:hover + #offphone{
+	visibility: visible;
+}
+
+
+
+
+#loc{
+	position: absolute;
+		top:140px;
+		left: 460px;
+		visibility: visible;
+}
+#phone{
+	position: absolute;
+		top:140px;
+		left: 870px;
+		visibility: visible;
+}
+
+#profile{
+	position: absolute;
+		top:35px;
+		left: 30px;
+		visibility: visible;
+}
+
+#profileinfo{
+		position: absolute;
+		width: 400px;
+		top:190px;
+		left: 700px;
+		visibility: hidden;
+}
+
+#profile:hover + #profileinfo{
+	visibility: visible;
+}
+
+#offloc{
+	position: absolute;
+		top:140px;
+		left: 460px;
+		visibility: hidden;
+
+}
+#offphone{
+	position: absolute;
+		top:140px;
+		left: 870px;
+		visibility: hidden;
+
+}
+
+
+#locinfo{
+	position: relative;
+		top:5px;
+		left: 10px;
+	
+}
+
+#phoneinfo{
+	position: relative;
+		top:5px;
+		left: 10px;
+}
+
+
+
+
+#con2:hover + #locinfo{
+	visibility: visible;
+}
+
+#con3:hover + #phoneinfo{
+	visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+
+#pt2click{
+		height:225px;
+	width:180px;
+	position: absolute;
+		top:62px;
+		left: 190px;
+		cursor: pointer;
+		z-index: 3;
+}
+#offhome2{
+		position: absolute;
+		margin:0px;
+		top:50px;
+		left: 184px;
+		float: left;
+		visibility: hidden;
+}
+
+#pt2click:hover + #offhome2{
+	visibility: visible;
+}
+
+#pt3click{
+	height:260px;
+	width:170px;
+	position: absolute;
+		top:355px;
+		left: 440px;
+		cursor: pointer;
+		z-index: 3;
+}
+
+#offhome3{
+		position: absolute;
+		margin:0px;
+		top:50px;
+		left: 432px;
+		float: left;
+		visibility: hidden;
+}
+
+#pt3click:hover + #offhome3{
+	visibility: visible;
+}
+
+
+.pt4click{
+	height:380px;
+	width:190px;
+	position: absolute;
+		top:80px;
+		left: 755px;
+		cursor: pointer;
+		z-index: 3;
+}
+.offhome4{
+		position: absolute;
+		margin:0px;
+		top:50px;
+		float: left;
+		left: 749px;
+		visibility: hidden;
+}
+
+.pt4click:hover + .offhome4{
+	visibility: visible;
+}
+
+
+#pt5click{
+	height:120px;
+	width:120px;
+	position: absolute;
+		top:340px;
+		left: 1000px;
+		cursor: pointer;
+		z-index: 3;
+}
+
+#offhome5{
+		position: absolute;
+		margin:0px;
+		top:50px;
+		left: 996px;
+		float: left;
+		visibility: hidden;
+}
+
+#pt5click:hover + #offhome5{
+	visibility: visible;
+}
+
+
+
+
+
+
+
+
+
+h1{
+	font-family: 'Gotham';
+font-size: 20px;
+color: black;
+text-align: left;
+}
+
+
+
+h2{
+	font-family: 'Gotham';
+font-size: 14px;
+color: darkgray;
+text-align: center;
+line-height: 1.6;
+}
+
+
+
+h3{
+	font-family: 'Gotham';
+font-size: 16px;
+color: black;
+text-align: center;
+line-height: .5;
+}
+
+
+h4{
+	font-family: 'Gotham';
+font-size: 14px;
+color: black;
+text-align: left;
+line-height: 1.6;
+}
+
+
+h5{
+	font-family: 'Gotham';
+font-size: 14px;
+color: darkgray;
+text-align: left;
+line-height: 1;
+}
+
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: darkgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.img:link{
+cursor: pointer;
+}
+
+
+
+
+
+
+

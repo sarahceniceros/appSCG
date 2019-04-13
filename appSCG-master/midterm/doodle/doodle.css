@@ -1,0 +1,623 @@
+
+
+#logo{
+	position: absolute;
+		top:8px;
+		left: 15px;
+}
+
+.menubar{
+	z-index: 1;
+	width: 1290px;
+	height:60px;
+	float: left;
+	background: white;
+	position: absolute;
+		top:0px;
+		left: 0px;
+}
+
+#home{
+	margin:0px;
+	position: absolute;
+		top:50px;
+		left: 0px;
+		visibility: visible;
+		z-index: -1;
+		float: left
+}
+
+
+.container{
+	float: left;
+	margin-top: 60px;
+	height:642px;
+	width: 1283px;
+	left: 0px;
+}
+
+
+#about{
+	position: absolute;
+		top:4px;
+		left: 680px;
+}
+
+#contact{
+	position: absolute;
+		top:4px;
+		left: 785px;
+}
+
+#shop{
+	position: absolute;
+		top:4px;
+		left: 915px;
+}
+
+#instagram{
+	position: absolute;
+		top:4px;
+		left: 1000px;
+}
+#work{
+	position: absolute;
+		top:4px;
+		left: 1150px;
+}
+
+
+
+#email{
+	position: absolute;
+		top:140px;
+		left: 50px;
+		visibility: visible;
+}
+#offemail{
+	position: absolute;
+		top:140px;
+		left: 50px;
+		visibility: hidden;
+
+}
+
+
+#emailinfo{
+	position: relative;
+		top:5px;
+		left: 10px;
+}
+
+#con1{
+	position: absolute;
+		top:160px;
+		left: 70px;
+		width: 270px;
+		height: 310px;
+		z-index: 3;
+}
+
+#con1:hover + #offemail {
+	visibility: visible;
+}
+
+
+
+#con2{
+	position: absolute;
+		top:160px;
+		left: 470px;
+		width: 270px;
+		height: 310px;
+		z-index: 3;
+}
+
+#con2:hover + #offloc{
+	visibility: visible;
+}
+
+#con3{
+	position: absolute;
+		top:160px;
+		left: 870px;
+		width: 270px;
+		height: 310px;
+		z-index: 3;
+}
+
+#con3:hover + #offphone{
+	visibility: visible;
+}
+
+
+
+
+#loc{
+	position: absolute;
+		top:140px;
+		left: 460px;
+		visibility: visible;
+}
+#phone{
+	position: absolute;
+		top:140px;
+		left: 870px;
+		visibility: visible;
+}
+
+#profile{
+	position: absolute;
+		top:35px;
+		left: 30px;
+		visibility: visible;
+}
+
+#profilespace{
+	position: absolute;
+		top:95px;
+		left: 85px;
+		z-index: 10;
+		visibility: visible;
+}
+
+#realprofile{
+		position: absolute;
+		top:110px;
+		left: 85px;
+		visibility: hidden;
+		z-index: 3;
+}
+
+#profileinfo{
+		position: absolute;
+		width: 400px;
+		top:100px;
+		left: 550px;
+	
+}
+
+#profilespace:hover + #realprofile{
+	visibility: visible;
+}
+
+#profilespace:hover + #profileinfo{
+	visibility: visible;
+}
+
+#offloc{
+	position: absolute;
+		top:140px;
+		left: 460px;
+		visibility: hidden;
+
+}
+#offphone{
+	position: absolute;
+		top:140px;
+		left: 870px;
+		visibility: hidden;
+
+}
+
+
+#locinfo{
+	position: relative;
+		top:5px;
+		left: 10px;
+	
+}
+
+#phoneinfo{
+	position: relative;
+		top:5px;
+		left: 10px;
+}
+
+
+
+
+#con2:hover + #locinfo{
+	visibility: visible;
+}
+
+#con3:hover + #phoneinfo{
+	visibility: visible;
+}
+
+
+
+
+
+
+.pt1click{
+	height:120px;
+	width:120px;
+	position: absolute;
+		top:410px;
+		left: 70px;
+		cursor: pointer;
+		z-index: 3;
+	}
+
+
+.offhome1{
+		position: absolute;
+		margin:0px;
+		top:50px;
+		left: 1px;
+		visibility: hidden;
+		float: left;
+	}
+
+.pt1click:hover + .offhome1{
+	visibility: visible;
+}
+
+
+
+#pt2click{
+		height:225px;
+	width:180px;
+	position: absolute;
+		top:62px;
+		left: 190px;
+		cursor: pointer;
+		z-index: 3;
+}
+#offhome2{
+		position: absolute;
+		margin:0px;
+		top:50px;
+		left: 184px;
+		float: left;
+		visibility: hidden;
+}
+
+#pt2click:hover + #offhome2{
+	visibility: visible;
+}
+
+#pt3click{
+	height:260px;
+	width:170px;
+	position: absolute;
+		top:355px;
+		left: 440px;
+		cursor: pointer;
+		z-index: 3;
+}
+
+#offhome3{
+		position: absolute;
+		margin:0px;
+		top:50px;
+		left: 432px;
+		float: left;
+		visibility: hidden;
+}
+
+#pt3click:hover + #offhome3{
+	visibility: visible;
+}
+
+
+#pt4click{
+	height:380px;
+	width:190px;
+	position: absolute;
+		top:80px;
+		left: 755px;
+		cursor: pointer;
+		z-index: 3;
+}
+#offhome4{
+		position: absolute;
+		margin:0px;
+		top:50px;
+		float: left;
+		left: 749px;
+		visibility: hidden;
+}
+
+#pt4click:hover + #offhome4{
+	visibility: visible;
+}
+
+
+#pt5click{
+	height:120px;
+	width:120px;
+	position: absolute;
+		top:340px;
+		left: 1000px;
+		cursor: pointer;
+		z-index: 3;
+}
+
+#offhome5{
+		position: absolute;
+		margin:0px;
+		top:50px;
+		left: 996px;
+		float: left;
+		visibility: hidden;
+}
+
+#pt5click:hover + #offhome5{
+	visibility: visible;
+}
+
+
+#shorts{
+	position: absolute;
+		top:60px;
+		left: 120px;
+}
+#shortsinfo{
+position: absolute;
+		top:60px;
+		left: 780px;
+		width:250px ;
+		visibility:hidden;
+		line-height: 2.5;
+}
+
+#shorts:hover + #shortsinfo{
+	visibility: visible;
+}
+
+
+#poster{
+	position: absolute;
+		top:350px;
+		left: 95px;
+}
+#posterinfo{
+position: absolute;
+		top:60px;
+		left: 780px;
+		width:250px ;
+		visibility:hidden;
+		line-height: 2.5;
+}
+#poster:hover + #posterinfo{
+	visibility: visible;
+}
+
+
+
+#tshirt{
+	position: absolute;
+		top:320px;
+		left: 495px;
+}
+#tshirtinfo{
+position: absolute;
+		top:60px;
+		left: 780px;
+		width:250px ;
+		visibility:hidden;
+		line-height: 2.5;
+}
+
+#tshirt:hover + #tshirtinfo{
+	visibility: visible;
+}
+
+
+#pingpong{
+	position: absolute;
+		top:60px;
+		left: 500px;
+}
+#pingponginfo{
+position: absolute;
+		top:60px;
+		left: 780px;
+		width:250px ;
+		visibility:hidden;
+		line-height: 2.5;
+}
+#pingpong:hover + #pingponginfo{
+	visibility: visible;
+}
+
+#art1{
+	position: absolute;
+		top:70px;
+		left: 35px;
+		z-index: 0;
+}
+#art_1{
+	position: absolute;
+		top:70px;
+		left: 35px;
+		z-index:10;}
+#art4{
+	position: absolute;
+		top:70px;
+		left: 335px;
+}
+#art3{
+	position: absolute;
+		top:70px;
+		left: 635px;
+}
+#art2{
+	position: absolute;
+		top:70px;
+		left: 935px;
+}
+
+#art5{
+	position: absolute;
+		top:400px;
+		left: 35px;
+}
+#art6{
+	position: absolute;
+		top:400px;
+		left: 335px;
+}
+#art7{
+	position: absolute;
+		top:400px;
+		left: 635px;
+}
+#art8{
+	position: absolute;
+		top:400px;
+		left: 935px;
+}
+
+#art1tx{
+	position: absolute;
+		top:340px;
+		left: 35px;
+		height: 270px;
+		width: 270px;
+}
+
+#art4tx{
+	position: absolute;
+		top:340px;
+		left: 335px;
+		height: 270px;
+		width: 270px;
+}
+#art3tx{
+	position: absolute;
+		top:340px;
+		left: 635px;
+		height: 270px;
+		width: 270px;
+}
+#art2tx{
+	position: absolute;
+		top:340px;
+		left: 935px;
+		height: 270px;
+		width: 270px;
+}
+
+#art5tx{
+	position: absolute;
+		top:670px;
+		left: 35px;
+		height: 270px;
+		width: 270px;
+}
+#art6tx{
+	position: absolute;
+		top:670px;
+		left: 335px;
+		height: 270px;
+		width: 270px;
+}
+#art7tx{
+	position: absolute;
+		top:670px;
+		left: 635px;
+		height: 270px;
+		width: 270px;
+}
+#art8tx{
+	position: absolute;
+		top:670px;
+		left: 935px;
+		height: 270px;
+		width: 270px;
+}
+
+
+
+
+
+
+h1{
+	font-family: 'Gotham';
+font-size: 20px;
+color: black;
+text-align: left;
+}
+
+
+
+h2{
+	font-family: 'Gotham';
+font-size: 14px;
+color: darkgray;
+text-align: center;
+line-height: 1.6;
+}
+
+
+
+h3{
+	font-family: 'Gotham';
+font-size: 16px;
+color: black;
+text-align: center;
+line-height: .5;
+vertical-align: middle;
+}
+
+
+h4{
+	font-family: 'Gotham';
+font-size: 14px;
+color: black;
+text-align: left;
+line-height: 1.6;
+}
+
+
+h5{
+	font-family: 'Gotham';
+font-size: 14px;
+color: darkgray;
+text-align: left;
+line-height: 1;
+}
+
+h6{
+	font-family: 'Gotham';
+font-size: 16px;
+color: black;
+text-align: center;
+line-height: 12.5;
+vertical-align: middle;
+}
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: darkgray;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:active {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a.img:link{
+cursor: pointer;
+}
+
+
+
+
+
+
+
