@@ -469,6 +469,7 @@ position: absolute;
 	position: absolute;
 		top:400px;
 		left: 935px;
+		
 }
 
 #art1tx{
@@ -477,6 +478,33 @@ position: absolute;
 		left: 35px;
 		height: 270px;
 		width: 270px;
+		visibility: hidden;
+}
+
+#art1:hover + #art1tx{
+visibility: visible;
+}
+
+#art2:hover + #art2tx{
+visibility: visible;
+}
+#art3:hover + #art3tx{
+visibility: visible;
+}
+#art4:hover + #art4tx{
+visibility: visible;
+}
+#art5:hover + #art5tx{
+visibility: visible;
+}
+#art6:hover + #art6tx{
+visibility: visible;
+}
+#art7:hover + #art7tx{
+visibility: visible;
+}
+#art8:hover + #art8tx{
+visibility: visible;
 }
 
 #art4tx{
@@ -484,21 +512,21 @@ position: absolute;
 		top:340px;
 		left: 335px;
 		height: 270px;
-		width: 270px;
+		width: 270px; visibility: hidden;
 }
 #art3tx{
 	position: absolute;
 		top:340px;
 		left: 635px;
 		height: 270px;
-		width: 270px;
+		width: 270px; visibility: hidden;
 }
 #art2tx{
 	position: absolute;
 		top:340px;
 		left: 935px;
 		height: 270px;
-		width: 270px;
+		width: 270px; visibility: hidden;
 }
 
 #art5tx{
@@ -506,28 +534,28 @@ position: absolute;
 		top:670px;
 		left: 35px;
 		height: 270px;
-		width: 270px;
+		width: 270px; visibility: hidden;
 }
 #art6tx{
 	position: absolute;
 		top:670px;
 		left: 335px;
 		height: 270px;
-		width: 270px;
+		width: 270px; visibility: hidden;
 }
 #art7tx{
 	position: absolute;
 		top:670px;
 		left: 635px;
 		height: 270px;
-		width: 270px;
+		width: 270px; visibility: hidden;
 }
 #art8tx{
 	position: absolute;
 		top:670px;
 		left: 935px;
 		height: 270px;
-		width: 270px;
+		width: 270px; visibility: hidden;
 }
 
 
